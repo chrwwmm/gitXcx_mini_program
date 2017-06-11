@@ -1,0 +1,29 @@
+<!--pages/search_xm/search_xm.wxml-->
+<view class="search">
+  <image src="../../images/search.jpg"></image>
+  <view class="search_cont">
+     <image src="../../images/search_logo.png"></image>
+    <input id="search_value" type="text" bindchange="dataChange" placeholder="查项目"></input>
+    <view class="guifan-search" bindtap="dosearch">搜索</view>
+  </view>
+</view>
+
+<view class="guifan">
+
+<view class="guifan-biaoti">常用项目</view>
+
+<!--用name 定义模版-->  
+<template name="msgTemp">  
+<view catchtap="onTapToItem" id="{{_id}}" class="guifan-item" url="lmitem/lmitem">  
+    <view class="guifan-title">{{title}}</view>  
+    <view class="guifan-bianhao">项目主体：{{declaration}}</view>
+</view>  
+</template>
+  
+<view wx:for="{{allData}}" wx:key="">  
+    <!--用is 使用模版-->  
+    <template is="msgTemp" data="{{...item}}"/> 
+</view>   
+
+</view> 
+

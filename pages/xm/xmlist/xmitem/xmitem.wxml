@@ -1,0 +1,11 @@
+<view class="jianzhu">
+
+<view class="item">  
+    <view class="">{{allData.title}}</view>  
+</view>  
+<view class="item_cont">
+  <view class="">申报主体:{{allData.declaration}}</view>
+  <view class="">面积(㎡):{{allData.publicArea}}</view>
+</view>
+
+</view> 

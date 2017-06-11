@@ -1,0 +1,11 @@
+<import src="../../../../wxParse/wxParse.wxml"/> 
+<view class="jianzhu">
+
+<view class="item">  
+    <view class="">{{allData.title}}</view>  
+</view>  
+<view class="item_cont">
+  <template is="wxParse" data="{{wxParseData:article.nodes}}"/>
+</view>
+
+</view> 

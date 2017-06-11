@@ -1,0 +1,73 @@
+/* pages/search_xm/search_xm.wxss */
+.search{
+    width: 100%;
+    height: 300rpx;
+    position: relative;
+}
+.search image{
+  width: 100%;
+  height: 100%;
+}
+.search .search_cont{
+  width: 80%;
+  height: 80%;
+  position: absolute;
+  top: 10%;
+  left: 10%;
+}
+.search .search_cont image{
+  width: 5%;
+  height: 12%;
+  position: absolute;
+  top: 48rpx;
+  left: 200rpx;
+  z-index: 100;
+}
+.search .search_cont .guifan-search{
+  width: 40%;
+  margin: 0 auto;
+}
+.search input {
+    background-color: #fff;
+    color: #898989;
+    width: 80%;
+    height: 64rpx;
+    line-height: 64rpx;
+    margin: 30rpx auto;
+    border-radius: 40rpx;
+    font-size: 28rpx;
+    text-indent: 105rpx;
+    text-align: center;
+}
+
+.guifan{
+    width: 90%;
+    margin: 50rpx auto;
+}
+.guifan-biaoti{
+    height: 70rpx;
+    color: #898989;
+    font-size: 28rpx;
+}
+.guifan-item{
+    padding: 20rpx 0;
+    border-bottom: 1rpx solid #ccc;
+}
+.guifan-title{
+    height: 60rpx;
+    color: #000;
+    font-size: 28rpx;
+}
+.guifan-bianhao{
+    height: 50rpx;
+    color: #898989;
+    font-size: 24rpx;
+}
+.guifan-search{
+	background:#eee;
+	margin-top:30rpx;
+	text-align:center;
+	width:60%;
+	margin:30rpx 20%;
+	border-radius:10rpx;
+}
